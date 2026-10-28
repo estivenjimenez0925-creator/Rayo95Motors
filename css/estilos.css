@@ -1,0 +1,292 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    
+    
+    background-image: url('../imagenes/fondo rayo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+}
+
+
+.login-box {
+    width: 90%;
+    max-width: 380px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+}
+
+
+.logo-tienda {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.logo-tienda img {
+    max-width: 170px;
+    height: auto;     
+}
+
+
+h1 {
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 25px;
+    line-height: 1.4;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #D30000;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: white;
+}
+
+button,
+.btn-ingresar {
+    display: inline-block;
+    background-color: #ff0000;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: background 0.3s ease;
+}
+
+button:hover,
+.btn-ingresar:hover {
+    background-color: #c52833;
+}
+
+
+.enlaces-extra {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.enlaces-extra a {
+    color: #1d3557;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.enlaces-extra a:hover {
+    text-decoration: underline;
+}
+.card {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #DDDDDD;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #DDDDDD;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555555;
+    border-radius: 6px;
+    background-color: #222222;
+    color: #FFFFFF;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    border-color: #D30000;
+    outline: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #D30000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #c52833;
+}
+body.nuevo-fondo {
+    background-image: url('../imagenes/Fondo 2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body.body-catalogo {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; 
+    color: #FFFFFF;
+}
+
+
+.header-catalogo {
+    padding: 20px 30px;
+}
+
+.logo-esquina {
+    width: 80px; 
+    height: auto;
+}
+
+.main-catalogo {
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.titulo-mes {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contenedor-carros {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    flex-wrap: wrap; 
+}
+
+.card-carro {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid #333333;
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    text-align: left;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.card-carro:hover {
+    transform: translateY(-5px); 
+    border-color: #D30000;
+}
+
+.card-carro img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card-carro h3 {
+    margin: 0 0 10px 0;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.card-carro p {
+    font-size: 13px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.btn-comprar {
+    width: 100%;
+    padding: 10px;
+    background-color: #D30000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-comprar:hover {
+    background-color: #A80000;
+}

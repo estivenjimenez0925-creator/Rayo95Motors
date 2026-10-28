@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - Rayo95 Motors</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="login-box">
+        <div class="logo-tienda">
+            <img src="imagenes/Logo Rayo 95 motors.png" alt="Rayo95 Motors Logo">
+        </div>
+
+        <h2>Iniciar Sesión</h2>
+        
+<form action="catalogo.html" method="POST">
+    
+    <label for="tipo_id">Tipo de Documento:</label>
+    <select id="tipo_id" name="tipo_id" required>
+        <option value="" disabled selected>Seleccione su tipo de ID</option>
+        <option value="CC">Cédula de Ciudadanía (CC)</option>
+        <option value="CE">Cédula de Extranjería (CE)</option>
+        <option value="TI">Tarjeta de Identidad (TI)</option>
+        <option value="PAS">Pasaporte</option>
+    </select>
+
+    <label for="numero_id">Número de ID:</label>
+    <input type="text" id="numero_id" name="numero_id" placeholder="Ej: 1012345678" required>
+
+    <label for="contrasena">Contraseña:</label>
+    <input type="password" id="contrasena" name="contrasena" placeholder="••••••••" required>
+
+
+<div class="olvido-pass">
+    <a href="olvide_pass.html">¿Olvidaste tu contraseña?</a>
+</div>
+<button type="submit" class="btn-login">Iniciar Sesión</button>
+</form>
+    </div>
